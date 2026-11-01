@@ -1,0 +1,7 @@
+# dsh-dabaifan —— 挂载声明
+#
+# 往 web profile 的配置树里插入一个节点；浏览器半侧（左栏按钮 + 面板）
+# 由 package.json 的 dsh.client 声明，通过 exports["./client"] 找到。
+- insert:
+    - id: dsh-dabaifan
+      name: dsh-dabaifan
